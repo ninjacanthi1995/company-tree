@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""company-tree """
+type CompanyTree {
+  id: ID!
+  createdAt: String!
+  name: String!
+  parentId: String!
+  cost: Float!
+  children: [CompanyTree!]!
+}
+
+type Query {
+  getTree: [CompanyTree!]!
+}
