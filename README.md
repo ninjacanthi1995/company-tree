@@ -33,7 +33,9 @@ Query: {
   }
 }
 
-Reponse: {
+Reponse:
+```json
+{
   "data": {
     "getTree": [
       {
@@ -204,3 +206,4 @@ Reponse: {
     ]
   }
 }
+```
